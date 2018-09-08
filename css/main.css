@@ -1,0 +1,844 @@
+/* DEFAULT 2.0 - 2014-2016 copyright (c) templatesuper.com | @templatesuper */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Questrial', sans-serif;
+  font-size: 100%;
+  line-height: 28px;
+  position: relative;
+  color: #282828;
+  color: #282828;
+}
+
+a {
+  cursor: pointer;
+  transition: all .3s;
+  text-decoration: none;
+  color: #282828;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.full-screen {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h3 span {
+  font-size: 1em;
+  padding: 0;
+  color: #fc490c;
+}
+
+#about,
+#blog,
+#contact,
+#portfolio,
+#pricing,
+#services,
+#team,
+#valores {
+  padding: 120px 0 150px;
+}
+
+#about h3,
+#blog h3,
+#contact h3,
+#portfolio h3,
+#pricing h3,
+#services h3,
+#team h3,
+#valores h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+/*
+  ############################################################
+  NAVIGATION
+  ############################################################
+*/
+.site-navbar {
+  min-height: 50px;
+  padding: 45px 0 20px;
+  transition: all .3s;
+  border: 0;
+}
+
+.site-navbar button:focus {
+  outline: 0;
+}
+
+.site-navbar .navbar-nav {
+  padding: 0 15px;
+}
+
+.site-navbar .container {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.site-navbar a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9rem;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.site-navbar .active,
+.site-navbar .active a {
+  color: #fc490c;
+  background: transparent;
+}
+
+.site-navbar li a.current:hover {
+  color: #fc490c;
+  background: transparent;
+}
+
+.site-navbar li a:hover {
+  color: #fc490c;
+  background: transparent;
+}
+
+.site-navbar li a:focus {
+  background: transparent;
+}
+
+.site-navbar .navbar-brand {
+  padding-top: 0;
+}
+
+.site-navbar .navbar-toggle .icon-bar {
+  background: #fff;
+}
+
+.site-navbar .navbar-toggle {
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+
+.site-navbar a.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 51px;
+  padding: 0 0 0 15px;
+  text-transform: uppercase;
+}
+
+.site-navbar a.navbar-brand span {
+  color: #fc490c;
+}
+
+.navbar-toggler-icon i {
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding-top: 1px;
+}
+
+.navbar-toggler {
+  padding: .25rem .5rem;
+}
+
+.sticky {
+  z-index: 100000;
+  padding: 12px 0;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/*
+  ############################################################
+  HOME
+  ############################################################
+*/
+.carousel .full-width {
+  width: 100%;
+}
+
+.carousel .carousel-caption {
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  color: #282828;
+  text-shadow: none;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+}
+
+.carousel .carousel-caption h3 {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.carousel .carousel-caption span {
+  display: inline-block;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background: rgba(27, 147, 199, 0.8);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #282828;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #666;
+}
+
+.carousel .carousel-indicators li:hover {
+  cursor: pointer;
+}
+
+.carousel .subtitle {
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  font-size: 2rem;
+  color: #666;
+}
+
+.btn-action {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 47px;
+  height: 50px;
+  padding: 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 40px;
+  background: #fc490c;
+  background-image: -moz-linear-gradient(90deg, #f54912 0%, rgba(255, 73, 10, 0) 100%);
+  background-image: -webkit-linear-gradient(90deg, #f54912 0%, rgba(255, 73, 10, 0) 100%);
+  background-image: -ms-linear-gradient(90deg, #f54912 0%, rgba(255, 73, 10, 0) 100%);
+  box-shadow: 0 18px 31px 0 rgba(255, 73, 10, 0.3);
+}
+
+.btn-action:hover {
+  color: #fff;
+  background: #282828;
+  box-shadow: 0 18px 31px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*
+  ############################################################
+  ABOUT
+  ############################################################
+*/
+#about p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #282828;
+}
+
+#about h3 span,
+#contact h3 span,
+#portfolio h3 span,
+#pricing h3 span,
+#services h3 span,
+#team h3 span,
+#valores h3 span {
+  font-size: 1em;
+  padding: 0;
+  color: #fc490c;
+}
+
+/*
+  ############################################################
+  SERVICES
+  #############################################################
+*/
+#services {
+  background: #f8f8f8;
+}
+
+#services h3 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#services p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#services .icon {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  transition: all .4s;
+  border: 1px solid #d4d4d4;
+  border-radius: 50%;
+  background: #fff;
+}
+
+#services .icon:hover {
+  cursor: pointer;
+  border: 5px solid #fc490c;
+  background: #fc490c;
+}
+
+#services .icon:hover i {
+  color: #fff;
+}
+
+#services .icon i {
+  font-size: 4rem;
+  font-weight: 700;
+  display: flex;
+  height: 100%;
+  color: #fc490c;
+  text-shadow: 0 18px 31px rgba(255, 73, 10, 0.3);
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -ms-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -ms-flex-pack: distribute;
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+#services h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*
+  ############################################################
+  VALORES
+  #############################################################
+*/
+#valores {
+  background: #f8f8f8;
+}
+
+#valores h3 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#valores p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#valores .icon {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  transition: all .4s;
+  border: 1px solid #d4d4d4;
+  border-radius: 50%;
+  background: #fff;
+}
+
+#valores .icon:hover {
+  cursor: pointer;
+  border: 5px solid #fc490c;
+  background: #fc490c;
+}
+
+#valores .icon:hover i {
+  color: #fff;
+}
+
+#valores .icon i {
+  font-size: 4rem;
+  font-weight: 700;
+  display: flex;
+  height: 100%;
+  color: #fc490c;
+  text-shadow: 0 18px 31px rgba(255, 73, 10, 0.3);
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -ms-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -ms-flex-pack: distribute;
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+#valores h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*
+  ############################################################
+  PORTFOLIO
+  #############################################################
+*/
+#portfolio {
+  color: #282828;
+}
+
+#portfolio .box {
+  float: left;
+  width: 20%;
+}
+
+#portfolio h3 {
+  text-align: center;
+}
+
+#portfolio h3 span {
+  font-size: 1em;
+  padding: 0;
+  color: #fc490c;
+}
+
+#portfolio img {
+  width: 100%;
+  height: auto;
+}
+
+#portfolio h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+#portfolio .info {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity .6s;
+  -moz-transition: opacity .6s;
+  transition: opacity .6s;
+  text-transform: uppercase;
+  opacity: 0;
+  color: #fff;
+  background: #000;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -ms-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -ms-flex-pack: distribute;
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+#portfolio .box:hover .info {
+  opacity: .9;
+}
+
+#portfolio .imgport {
+  position: relative;
+}
+
+#portfolio .imgport:hover {
+  cursor: pointer;
+}
+
+#portfolio span {
+  font-size: 12px;
+  padding: 5px 25px;
+  letter-spacing: 2px;
+  color: #000;
+  border-radius: 20px;
+  background: #fff;
+}
+
+/*
+  ############################################################
+  PRICING
+  #############################################################
+*/
+#pricing h3,
+#pricing h5 {
+  text-align: center;
+}
+
+#pricing span {
+  font-size: 1em;
+}
+
+#pricing li {
+  font-size: 1.3em;
+}
+
+#pricing p.lead {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6em;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #fc490c;
+  text-shadow: 0 18px 31px rgba(255, 73, 10, 0.3);
+}
+
+#pricing p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+#pricing .panel-success > .panel-heading {
+  color: #fff;
+  border-color: #ec440b;
+  background-color: #fc490c;
+}
+
+#pricing .panel-success {
+  border-color: #ec440b;
+}
+
+#pricing .list-group-item {
+  border-color: #e8e8e8;
+}
+
+#pricing .ion-ios-checkmark-outline {
+  color: #fc490c;
+}
+
+#pricing .ion-ios-close-outline {
+  color: #dadada;
+}
+
+#pricing .panel.panel-success.fav {
+  border-color: #282828;
+}
+
+#pricing .panel.panel-success.fav .panel-heading {
+  border-color: #282828;
+  background-color: #282828;
+}
+
+#pricing .panel.panel-success.fav p.lead {
+  color: #282828;
+  text-shadow: 0 18px 31px rgba(80, 80, 80, 0.3);
+}
+
+#pricing .panel.panel-success.fav .btn-action {
+  background: #282828;
+  box-shadow: 0 18px 31px rgba(80, 80, 80, 0.3);
+}
+
+#pricing .fav .ion-ios-checkmark-outline {
+  color: #282828;
+}
+
+/*
+  ############################################################
+  TEAM
+  #############################################################
+*/
+#team h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#team p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#team img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#team ul {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#team ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#team ul li a {
+  font-size: 1em;
+  color: #282828;
+}
+
+#team ul li:hover {
+  opacity: .8;
+}
+
+#team .imgteam {
+  position: relative;
+}
+
+#team .imgteam:hover {
+  cursor: pointer;
+  opacity: .9;
+}
+
+#team .imgteam:hover ul {
+  display: block;
+}
+
+/*
+  ############################################################
+  CONTACT
+  #############################################################
+*/
+.fluid-wrapper {
+  position: relative;
+  height: 350px;
+  margin-bottom: 40px;
+}
+
+.fluid-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#contact .fa {
+  font-size: 1.2em;
+  color: #8f8f8f;
+}
+
+.mail {
+  font-size: 1rem;
+}
+
+.frm input[type='email'],
+.frm input[type='text'] {
+  height: 50px;
+  border-radius: 0 !important;
+  background: #fcfcfc !important;
+}
+
+textarea {
+  font-size: 1.2em;
+  padding: 10px !important;
+  border-radius: 0 !important;
+  background: #fcfcfc !important;
+}
+
+.btn-biru {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: #1b93c7;
+}
+
+.btn-biru:hover {
+  background: #0170a0;
+}
+
+#success p {
+  padding: 15px;
+}
+
+/*
+  ############################################################
+  FOOTER
+  #############################################################
+*/
+footer {
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #fff;
+  background: #282828;
+}
+
+footer a {
+  font-weight: 400;
+  text-decoration: underline;
+  color: #fff;
+  text-shadow: 0;
+}
+
+footer a:hover {
+  opacity: .8;
+  color: #fff;
+}
+
+.scroll-to-top a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+
+.scroll-to-top {
+  position: fixed;
+  z-index: 9999;
+  right: 20px;
+  bottom: 20px;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  text-align: center;
+  opacity: 0;
+  border-radius: 4px;
+  background: #333;
+  filter: alpha(opacity=0);
+}
+
+.scroll-to-top.affix {
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+
+.affix {
+  position: fixed;
+}
+
+/*
+  -------------------------------------------------
+  Tablets
+  ---------------------------------------------------
+*/
+@media only screen and (max-width: 768px) {
+  #about,
+  #blog,
+  #contact,
+  #portfolio,
+  #pricing,
+  #services,
+  #team,
+  #valores {
+    padding: 50px 0 60px;
+  }
+  .site-navbar {
+    margin-bottom: 0;
+    padding: 0;
+    background: #fff;
+  }
+  .site-navbar a.navbar-brand {
+    font-size: 2.3em;
+  }
+  .site-navbar .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 0;
+    background: white;
+  }
+  .site-navbar .navbar-toggle .icon-bar {
+    background: #000;
+  }
+}
+
+/*
+  ------------------------------------------------
+  Mobile
+  -------------------------------------------------
+*/
+@media only screen and (max-width: 480px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .site-navbar {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .site-navbar a.navbar-brand {
+    font-size: 1.8rem;
+  }
+  .site-navbar .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 0;
+    background: white;
+  }
+  .site-navbar .navbar-toggle .icon-bar {
+    background: #000;
+  }
+  .carousel .carousel-caption h3 {
+    font-size: 2rem;
+  }
+  .carousel .subtitle {
+    font-size: 1.3rem;
+  }
+  #about,
+  #contact,
+  #portfolio,
+  #pricing,
+  #services,
+  #team,
+  #valores {
+    padding: 35px 0 60px;
+  }
+  #about h3,
+  #contact h3,
+  #portfolio h3,
+  #pricing h3,
+  #services h3,
+  #team h3,
+  #valores h3 {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  #portfolio .box {
+    width: 50%;
+  }
+  #services p {
+    margin-bottom: 20px;
+  }
+  #team .col-md-3 {
+    margin-bottom: 25px;
+  }
+  #team p {
+    line-height: 20px;
+  }
+}
