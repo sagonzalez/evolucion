@@ -67,7 +67,7 @@ $(document).ready(function () {
             type: "post",
             data: mail
         }).done(function () {
-            toastr.success('Se envió el correo correctamente', 'Acción Exitosa!');            
+            toastr.success('Se envió el correo correctamente', 'Acción Exitosa!');
         }).fail(function () {
             console.log(err);
             toastr.error('Ocurrió un error, intentalo más tarde.', 'Oops!');
@@ -85,13 +85,15 @@ function showValor(valor) {
             $('#valorContent').html('Servimos por vocación, servimos porque elegimos servir. En todo momento mostramos actitud positiva que invite al cliente a sentirse en confianza y que se sienta cómodo y cautivado con nosotros. Para ello es necesario la suma total de los esfuerzos comunes, no solo para satisfacer las expectativas de nuestros clientes, sino para sorprenderlos gratamente.');
             break;
         case 'Responsabilidad':
-            $('#valorContent').html('Responsabilidad es actuar conscientemente reconociendo que somos nosotros la causa directa o indirecta de lo que ocurre. Ser  responsable en el trabajo no sólo ayuda a elevar el nivel profesional en la empresa, sino también a adquirir hábitos positivos para la vida personal, misma que proyectamos a nuestros clientes.'+
-            'La responsabilidad en nuestra empresa ayuda a promover un ambiente productivo y profesional, damos reporte oportuno de las anomalías que se generan de manera voluntaria o involuntaria, nos preocupamos en mejorar constantemente nuestros rendimientos buscando ser una empresa altamente productiva. '+
-            'Dedicamos tiempo a planear las diferentes acciones y tareas y con ello desarrollamos la sensibilidad de prever escenarios futuros para influir positivamente en ellos evitando situaciones problema.  '+
-            'Asumimos con responsabilidad la tarea asignada y garantizamos que la llevaremos a término de manera profesional en tiempo y forma, por lo que, cada uno de nosotros, garantizamos confiabilidad en el equipo para cumplir  los compromisos hechos con nuestros clientes.');
+            $('#valorContent').html('Responsabilidad es actuar conscientemente reconociendo que somos nosotros la causa directa o indirecta de lo que ocurre. Ser  responsable en el trabajo no sólo ayuda a elevar el nivel profesional en la empresa, sino también a adquirir hábitos positivos para la vida personal, misma que proyectamos a nuestros clientes.' +
+                'La responsabilidad en nuestra empresa ayuda a promover un ambiente productivo y profesional, damos reporte oportuno de las anomalías que se generan de manera voluntaria o involuntaria, nos preocupamos en mejorar constantemente nuestros rendimientos buscando ser una empresa altamente productiva. ' +
+                'Dedicamos tiempo a planear las diferentes acciones y tareas y con ello desarrollamos la sensibilidad de prever escenarios futuros para influir positivamente en ellos evitando situaciones problema.  ' +
+                'Asumimos con responsabilidad la tarea asignada y garantizamos que la llevaremos a término de manera profesional en tiempo y forma, por lo que, cada uno de nosotros, garantizamos confiabilidad en el equipo para cumplir  los compromisos hechos con nuestros clientes.');
             break;
         case 'Trabajo en equipo':
             $('#valorContent').html('Tenemos la convicción de que la suma de los distintos talentos a nivel individual hace posible el logro de los objetivos poniéndolos al servicio del conjunto. Reconocemos que el verdadero saber se comparte con humildad gracias a la retroalimentación que surge del diálogo asertivo y de la admiración mutua, esta certeza da una sólida cohesión al equipo. Sabemos que un equipo está formado por personas que trabajan en la misma dirección respetando un plan de acción concreto y siguiendo las directrices de un buen líder que se convierte en el mejor ejemplo a seguir y en un referente para los integrantes de ese equipo, regidos siempre bajo el principio de corresponsabilidad. Hemos descubierto que el trabajo en equipo aporta grandes fortalezas puesto que es una suerte y privilegio poder contar con un compañero de trabajo que puede ayudarte en un momento de dificultad: los éxitos se comparten al igual que los fracasos, en el contexto del equipo,  caminamos siempre juntos hacia la meta común.');
             break;
+        case 'Orgullo por lo que hacemos':
+            $('#valorContent').html('El trabajo nos dignifica, nos hace realizarnos como personas.  Con el trabajo expresamos lo que sentimos, lo que anhelamos, podemos manifestar nuestras ideas, desarrollamos la creatividad y los conocimientos que tenemos y cada vez más nos convertimos en seres humanos importantes para nuestra familia así como para la sociedad en la que vivimos.  El trabajo es un medio que tiene el hombre para alcanzar su desarrollo personal, el de su familia y el del conjunto social en el que vive. Es un derecho básico del ser humano, que le permite crecer con dignidad.	La calidad del trabajo y la calidad del trabajador son inseparables.  Un esfuerzo a medias no produce resultados a medias; simplemente no produce resultados.  Hagámoslo bien la primera vez y cada vez.  Con el trabajo bien hecho desarrollamos nuestro intelecto y nuestras habilidades tanto físicas como mentales puestas al servicio de los demás.');
+        }
     }
-}
