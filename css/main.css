@@ -304,8 +304,8 @@ h3 span {
 
 #services .icon:hover {
   cursor: pointer;
-  border: 5px solid #fc490c;
-  background: #fc490c;
+  border: 5px solid #555;
+  background: #1b93c7;
 }
 
 #services .icon:hover i {
@@ -369,8 +369,8 @@ h3 span {
 
 #valores .icon:hover {
   cursor: pointer;
-  border: 5px solid #fc490c;
-  background: #fc490c;
+  border: 5px solid #555;
+  background: #1b93c7;
 }
 
 #valores .icon:hover i {
