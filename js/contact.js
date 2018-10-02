@@ -131,9 +131,9 @@ $(document).ready(function () {
             },
             {
                 data: [
-                    "Sofware a la medida",
-                    "Programas específicos",
-                    "Páginas Web",
+                    "Aplicaciónes móviles",
+                    "Sitios web",
+                    "Soluciones integrales",
                 ]
             },
             {
