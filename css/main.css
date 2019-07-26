@@ -468,18 +468,20 @@ h3 span {
   -webkit-justify-content: center;
   justify-content: center;
 }
-
+/*
 #portfolio .box:hover .info {
   opacity: .9;
 }
+*/
 
 #portfolio .imgport {
   position: relative;
 }
-
+/*
 #portfolio .imgport:hover {
-  cursor: pointer;
+  /*cursor: pointer;
 }
+*/
 
 #portfolio span {
   font-size: 12px;
